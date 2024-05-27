@@ -12,11 +12,12 @@ ipv6 = false // 如无特殊需求不应开启 IPv6，目前网络环境下 IPv6
 
 
 [Proxy Group]
-Proxy = select, Nexitally Nexitally=select,policy-path=https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
-#Synology = select, Proxy, DIRECT
-Apple = select, Proxy, DIRECT
-Global = select, Proxy, DIRECT
-China = select, Proxy, DIRECT
+Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
+机场 = select, Nexitally 
+#Synology = select, 机场, DIRECT
+Apple = select, 机场, DIRECT
+Global = select, 机场, DIRECT
+China = select, 机场, DIRECT
 
 [Rule]
 # Synology: 
