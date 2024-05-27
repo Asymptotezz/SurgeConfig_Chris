@@ -35,5 +35,5 @@ RULE-SET, SYSTEM, DIRECT
 # 以下规则将触发本地 DNS 解析
 RULE-SET, LAN, DIRECT
 GEOIP, CN, DIRECT
-FINAL, Proxy, dns-failed
+FINAL, 选择机场, dns-failed
 
