@@ -12,7 +12,7 @@ ipv6 = false // 如无特殊需求不应开启 IPv6，目前网络环境下 IPv6
 
 
 [Proxy Group]
-Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
+Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=, hidden=1
 Proxy = select, include-other-group = "Nexitally"
 #Synology = select, Proxy, DIRECT
 Apple = select, Proxy, DIRECT
