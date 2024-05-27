@@ -1,0 +1,37 @@
+[General]
+skip-proxy = 192.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 127.0.0.1, localhost, *.local
+exclude-simple-hostnames = true
+internet-test-url = http://taobao.com/
+proxy-test-url = http://www.apple.com/
+test-timeout = 2
+dns-server = 223.5.5.5, 114.114.114.114
+# encrypted-dns-server = https://223.5.5.5/ // 除非当地 ISP 有严重的 DNS 污染问题，否则没必要开启 DoH，传统 DNS 的性能最优，网络异常后恢复速度最快
+wifi-assist = true
+ipv6 = false // 如无特殊需求不应开启 IPv6，目前网络环境下 IPv6 只会带来问题。
+
+
+[Proxy Group]
+Proxy = select,Nexitally Nexitally=select,policy-path=https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
+
+
+
+
+[Rule]
+# Synology: 
+#RULE-SET, https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT
+# Apple:
+RULE-SET, https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_ALL.list, DIRECT
+# Global:
+RULE-SET, https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_ALL.list, Proxy
+# China:
+RULE-SET, https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_ALL.list, DIRECT
+
+RULE-SET, https://github.com/Blankwonder/surge-list/raw/master/cn.list, DIRECT
+RULE-SET, SYSTEM, Proxy
+
+
+# 以下规则将触发本地 DNS 解析
+RULE-SET, LAN, DIRECT
+GEOIP, CN, DIRECT
+FINAL, Proxy, dns-failed
+
