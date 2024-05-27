@@ -13,21 +13,21 @@ ipv6 = false // 如无特殊需求不应开启 IPv6，目前网络环境下 IPv6
 
 [Proxy Group]
 Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
-选择机场 = select, Nexitally
-#Synology = select, 选择机场, DIRECT
-Apple = select, 选择机场, DIRECT
-Global = select, 选择机场, DIRECT
-China = select, 选择机场, DIRECT
+🫵选择机场 = select, Nexitally
+#💾Synology = select, 🫵选择机场, DIRECT
+🍎Apple = select, 🫵选择机场, DIRECT
+🌎Global = select, 🫵选择机场, DIRECT
+🇨🇳China = select, 🫵选择机场, DIRECT
 
 [Rule]
-# Synology: 
-#RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT, Synology
-# Apple:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, DIRECT, Apple
-# Global:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, 选择机场, Global
-# China:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list, DIRECT, China
+#💾Synology: 
+#RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT, 💾Synology
+#🍎Apple:
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, DIRECT, 🍎Apple
+#🌎Global:
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, 🫵选择机场, 🌎Global
+#🇨🇳China:
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list, DIRECT, 🇨🇳China
 # Bypass IOS/Mac OS System Traffic
 RULE-SET, SYSTEM, DIRECT
 
@@ -35,5 +35,5 @@ RULE-SET, SYSTEM, DIRECT
 # 以下规则将触发本地 DNS 解析
 RULE-SET, LAN, DIRECT
 GEOIP, CN, DIRECT
-FINAL, 选择机场, dns-failed
+FINAL, 🫵选择机场, dns-failed
 
