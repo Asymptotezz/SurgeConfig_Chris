@@ -18,15 +18,14 @@ Proxy = select,Nexitally Nexitally=select,policy-path=https://llspns.xyz/?L2Rvd2
 
 [Rule]
 # Synology: 
-#RULE-SET, https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT
+#RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT
 # Apple:
-RULE-SET, https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_ALL.list, DIRECT
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_ALL.list, DIRECT
 # Global:
-RULE-SET, https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_ALL.list, Proxy
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_ALL.list, Proxy
 # China:
-RULE-SET, https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_ALL.list, DIRECT
-
-RULE-SET, https://github.com/Blankwonder/surge-list/raw/master/cn.list, DIRECT
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_ALL.list, DIRECT
+# Bypass IOS/Mac OS System Traffic
 RULE-SET, SYSTEM, Proxy
 
 
