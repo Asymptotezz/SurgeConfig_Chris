@@ -14,8 +14,9 @@ udp-priority = true
 
 
 [Proxy Group]
+Gou = select, policy-path = https://url.v1.mk/sub?target=surge&ver=4&url=https%3A%2F%2F6969.sdsvip88.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D51ede3d00ccad7641dfe5279274376df%26flags%3Dsurge&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=true&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false
 Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
-🫵选择机场 = select, Nexitally
+🫵选择机场 = select, Nexitally, Gou
 #💾Synology = select, 🫵选择机场, DIRECT
 🍎Apple = select, 🫵选择机场, DIRECT
 🌎Global = select, 🫵选择机场, DIRECT
