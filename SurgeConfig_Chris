@@ -14,8 +14,8 @@ udp-priority = true
 
 
 [Proxy Group]
-Gou = select, policy-path = https://v1.mk/Nu76CgY
 Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPThkNjBmOGI5LTRlNTItNDg3NS04Yzc0LTgzZmY1ZTI0NzA1ZSZtbT0xMTAwNjUmMmE3Mzk1YzE4ZmMxNDI2Njg3ZDRjYWQ=
+Gou = select, policy-path = https://v1.mk/Nu76CgY
 🫵选择机场 = select, Nexitally, Gou
 #💾Synology = select, 🫵选择机场, DIRECT
 🍎Apple = select, 🫵选择机场, DIRECT
