@@ -18,6 +18,7 @@ Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZG
 Gou = select, policy-path = https://v1.mk/Nu76CgY
 🫵选择机场 = select, Nexitally, Gou
 #💾Synology = select, 🫵选择机场, DIRECT
+🎮Game = select, 🫵选择机场, DIRECT
 🍎Apple = select, 🫵选择机场, DIRECT
 🌎Global = select, 🫵选择机场, DIRECT
 🇨🇳China = select, 🫵选择机场, DIRECT
@@ -25,6 +26,8 @@ Gou = select, policy-path = https://v1.mk/Nu76CgY
 [Rule]
 #💾Synology: 
 #RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT, 💾Synology
+#🎮Game:
+RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list
 #🍎Apple:
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, DIRECT, 🍎Apple
 #🌎Global:
