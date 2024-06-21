@@ -27,7 +27,7 @@ Gou = select, policy-path = https://v1.mk/Nu76CgY
 #💾Synology: 
 #RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT, 💾Synology
 #🎮Game:
-RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list
+RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list, DIRECT, 🎮Game
 #🍎Apple:
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, DIRECT, 🍎Apple
 #🌎Global:
