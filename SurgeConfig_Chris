@@ -21,6 +21,7 @@ Gou = select, policy-path = https://6969.sdsvip88.com/api/v1/client/subscribe?to
 #💾Synology = select, 🫵选择机场, DIRECT
 🎮Game = select, 🫵选择机场, DIRECT
 🍎Apple = select, 🫵选择机场, DIRECT
+🪟Microsoft = select, 🫵选择机场, DIRECT
 🌎Global = select, 🫵选择机场, DIRECT
 🇨🇳China = select, 🫵选择机场, DIRECT
 
@@ -31,6 +32,8 @@ Gou = select, policy-path = https://6969.sdsvip88.com/api/v1/client/subscribe?to
 RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list, 🎮Game
 #🍎Apple:
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, 🍎Apple
+#🪟Microsoft:
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list, 🪟Microsoft
 #🌎Global:
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, 🌎Global
 #🇨🇳China:
