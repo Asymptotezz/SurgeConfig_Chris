@@ -31,7 +31,7 @@ RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list, D
 #🍎Apple:
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, DIRECT, 🍎Apple
 #🌎Global:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, 🫵选择机场, 🌎Global
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, DIRECT, 🌎Global
 #🇨🇳China:
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list, DIRECT, 🇨🇳China
 # Bypass IOS/Mac OS System Traffic
