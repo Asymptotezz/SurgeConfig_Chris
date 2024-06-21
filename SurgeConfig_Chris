@@ -25,15 +25,15 @@ Gou = select, policy-path = https://v1.mk/Nu76CgY
 
 [Rule]
 #💾Synology: 
-#RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, DIRECT, 💾Synology
+#RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Synology/Synology.list, 💾Synology
 #🎮Game:
-RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list, DIRECT, 🎮Game
+RULE-SET, https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list, 🎮Game
 #🍎Apple:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, DIRECT, 🍎Apple
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All.list, 🍎Apple
 #🌎Global:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, DIRECT, 🌎Global
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list, 🌎Global
 #🇨🇳China:
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list, DIRECT, 🇨🇳China
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list, 🇨🇳China
 # Bypass IOS/Mac OS System Traffic
 RULE-SET, SYSTEM, DIRECT
 
