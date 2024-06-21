@@ -15,7 +15,8 @@ udp-priority = true
 
 [Proxy Group]
 Nexitally = select, policy-path = https://llspns.xyz/?L2Rvd25sb2FkQ29uZmlnL05vZGVMaXN0LmFzcHg/cXg9b3JpZ24mdXJrPTJmYzk5YmVjLTg2MzctNGE1ZS04MTU1LTBjODUwNTI4MDA0YSZtbT0xMTAwNjUmYmNmNDE5OGQ1NzIzNGE5N2E1NWQ4MjYzYzIx
-Gou = select, policy-path = https://v1.mk/Nu76CgY
+#Gou = select, policy-path = https://v1.mk/Nu76CgY
+Gou = select, policy-path = https://6969.sdsvip88.com/api/v1/client/subscribe?token=51ede3d00ccad7641dfe5279274376df
 🫵选择机场 = select, Nexitally, Gou
 #💾Synology = select, 🫵选择机场, DIRECT
 🎮Game = select, 🫵选择机场, DIRECT
